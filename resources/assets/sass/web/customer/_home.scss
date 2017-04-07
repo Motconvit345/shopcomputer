@@ -1,0 +1,32 @@
+#customer {
+	margin-top: 20px;
+	aside {
+		border: none;
+	}
+}
+
+#customer-home {
+	.col-md-12 {
+		padding-top: 0;
+		h4 {
+			border-bottom: 1px solid #e0e0e0;
+			padding-bottom: 5px;
+		}
+	}
+	.col-md-6 {
+		#title {
+			background: #337AB7;
+			color: #FFFFFF;
+			padding: 1px 5px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+#customer-bill-home {
+	margin-top: 10px;
+	h4 {
+		border-bottom: 1px solid #e0e0e0;
+		padding-bottom: 5px;
+	}
+}

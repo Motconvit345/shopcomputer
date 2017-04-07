@@ -1,0 +1,50 @@
+div#shoping-cart {
+	table#cart-content {
+		thead {
+			tr {
+				th {
+					text-align: center;
+					background: #7B7B7B;
+					color: #FFF;
+				}
+				th:first-child {
+					width:23%;
+				}
+				th:nth-child(4) {
+					width: 16%;
+				}
+			}
+		}
+		tbody {
+			tr {
+				td:first-child {
+					padding: 5px 0;
+					img {
+						width: 51%;
+	   					height: 96px;
+					}
+				}
+				td:nth-child(2) {
+				    font-size: 20px;
+    				font-weight: 700;
+    				a{
+    					text-decoration: none;
+    				}
+				}
+			}
+		}
+	}
+	table#cart-total {
+		tbody {
+			tr {
+				td:last-child {
+					color: #e43a43;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+}
+div#custumer-pay {
+	display: none;
+}

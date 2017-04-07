@@ -1,0 +1,65 @@
+section#bg-slide {
+	margin-top: 20px;
+	div.col-md-3 {
+		div#list-group-title {
+			background: #30A9DE;
+		    padding: 12px 16px;
+		    color: white;
+		    font-weight: bold;
+		    font-size: 17px;
+		}
+	    div.list-group {
+	    	font-size: 15px;
+		    >li {
+		    	position: relative;
+		    	a {
+		    		display: block;
+			    	padding: 12px 16px;
+			    	text-decoration: none;
+			    	color: black;
+		    	}
+		    	border: solid 1px #eeeeee;
+		    	&:hover {
+		    		background: #F1F1F1;
+		    	}
+		    	list-style-type: none;
+		    	>ul {
+	    		    position: absolute;
+				    left: 100%;
+				    top: 0%;
+				    width: 600px;
+				    box-shadow: none;
+				    div.row {
+				    	div.col-md-5 {
+				    		ul.multi-column-dropdown {
+				    			list-style: none;
+			    			    padding-left: 10px;
+				    			li {
+				    				height: 23px;
+				    			}
+				    			li.title-drop {
+				    				a{
+				    					color: red;
+			    					    font-weight: bold;
+				    				}
+				    			}
+				    			li:last-child {
+				    				padding-bottom: 40px;
+				    			}
+				    		}
+				    	}
+				    }
+		    	}
+		    }
+	    } 
+	}
+	div.col-md-9 {
+		div#carousel-id {
+			div.carousel-inner {
+				div.item {
+					height: 290px;
+				}
+			}
+		}
+	}
+}

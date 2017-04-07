@@ -1,0 +1,335 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+nav.navbar {
+    margin-bottom: 0;
+    background: #37474F;
+    color: #DBDEDF;
+    div.navbar-header {
+        min-width: 15%;
+        a.navbar-brand {
+            color: #DBDEDF;
+            >img {
+                margin-right: 5px;
+                height: 20px;
+                width: 20px;
+                float: left;
+            }
+        }
+    }
+    div.collapse {
+        ul.navbar-nav {
+            p.navbar-text {
+                span.label {
+                    font-weight: 800;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+                    padding: 7px 30px;
+                    animation-name: labeln;
+                    animation-iteration-count: infinite;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-name: labeln;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-duration: 1s;
+                    -moz--animation-name: labeln;
+                    -moz-animation-iteration-count: infinite;
+                }
+            }
+        }
+        ul.navbar-right {
+            li:first-child {
+                a {
+                    color: #FFF;
+                    >img {
+                        margin-right: 5px;
+                        height: 20px;
+                    }
+                }
+            }
+            >li.dropdown {
+                margin-right: 40px;
+                a {
+                    &:focus {
+                        background: none;
+                    }
+                    padding: 10px 0;
+                    color: #FFF;
+                    img {
+                        max-height: 30px;
+                    }
+                }
+                >ul {
+                    box-shadow: none;
+                    >li {
+                        a {
+                            color: #fff;
+                            >i {
+                                padding: 0 15px;
+                            }
+                            color: #080808;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+div#page-content {
+    margin-top: -1px;
+    div#side-bar {
+        padding: 0;
+        height: 150vh;
+        background: #263238;
+        div#profile {
+            padding-top: 27px;
+            color: #FFF;
+            div#profile-pic {
+                margin-left: 15px;
+                width: 38%;
+                float: left;
+                >img.profile_img {
+                    height: 60px;
+                    background: white;
+                    padding: 4px;
+                }
+            }
+        }
+        div#profile-info {
+            margin-top: 5px;
+            >span {
+                color: #BAB8B8;
+                font-size: 13px;
+            }
+            >h2 {
+                font-size: 12px;
+                margin: 5px 0;
+            }
+            float: left;
+            color: #FFF;
+            width: 50%;
+        }
+        div#side-bar-content {
+            >ul {
+                padding-left: 0;
+                list-style: none;
+                li.side-head {
+                    font-size: 16px;
+                    margin: 15px 10px;
+                    color: rgba(255, 255, 255, .5);
+                }
+                >li {
+                    a {
+                        display: block;
+                        padding: 10px;
+                        span.fa-chevron-down {
+                            margin-top: 13px;
+                            float: right;
+                        }
+                        text-decoration: none;
+                        >i {
+                            width: 35px;
+                            margin-right: 15px;
+                            font-size: 27px;
+                        }
+                        color: rgba(255, 255, 255, .8);
+                    }
+                    &:hover {
+                        >a {
+                            background: #374A5E;
+                            color: #FFF;
+                            -webkit-transition: all 0.4s;
+                            -moz-transition: all 0.4s;
+                            -ms-transition: all 0.4s;
+                            -o-transition: all 0.4s;
+                            transition: all 0.4s;
+                        }
+                    }
+                    >ul {
+                        display: none;
+                        padding-left: 0;
+                        background: none;
+                        border-bottom: 1px solid #FFF;
+                        >li {
+                            a {
+                                padding: 20px 50px;
+                                padding-right: 0;
+                                padding-bottom: 5px;
+                                display: block;
+                            }
+                            &:hover {
+                                >a {
+                                    background: #374A5E;
+                                    color: #FFF;
+                                    -webkit-transition: all 0.4s;
+                                    -moz-transition: all 0.4s;
+                                    -ms-transition: all 0.4s;
+                                    -o-transition: all 0.4s;
+                                    transition: all 0.4s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div#page-wrapper {
+        background: #F5F5F5;
+        div#weather-clock {
+            margin-top: 20px;
+        }
+        div#content2 {
+            margin-top: 30px;
+            background: #FFFFFF;
+            //Hien thi form home
+            div.home-admin{
+                margin-top:40px;
+                div.panel-green{
+                    div.panel-heading{
+                        div.text-right{
+                            div.huge{
+                                font-size:40px;
+                            }
+                        }
+                    }
+                    background:#5CB85C;
+                    color:#FFFFFF;
+                    a{
+                        div.panel-footer{
+                            color:#5CB85C;
+                        }
+                    }
+                }
+                div.panel-primary{
+                    div.panel-heading{
+                        div.text-right{
+                            div.huge{
+                                font-size:40px;
+                            }
+                        }
+                    }
+                }
+                div.panel-yellow{
+                    div.panel-heading{
+                        div.text-right{
+                            div.huge{
+                                font-size:40px;
+                            }
+                        }
+                    }
+                    background:#F0AD4E;
+                    color:#FFFFFF;
+                    a{
+                        div.panel-footer{
+                            color:#F0AD4E;
+                        }
+                    }
+                }
+                div.panel-red{
+                    div.panel-heading{
+                        div.text-right{
+                            div.huge{
+                                font-size:40px;
+                            }
+                        }
+                    }
+                    background:#D9534F;
+                    color:#FFFFFF;
+                    a{
+                        div.panel-footer{
+                            color:#D9534F;
+                        }
+                    }
+                }
+            }
+            // Hien thi form chung cho cac bang
+            form {
+                >table {
+                    caption {
+                        text-align: center;
+                        font-size: 30px;
+                        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+                        font-weight: 800;
+                    }
+                }
+            }
+            >table {
+                caption {
+                    text-align: center;
+                    font-size: 30px;
+                    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+                    font-weight: 800;
+                }
+                >thead {
+                    >tr:first-child {
+                        >th {
+                            padding: 18px 3px;
+                        }
+                        background: #567880;
+                        color: #FFF;
+                    }
+                }
+                >tbody {
+                    tr:nth-child(even) {
+                        background-color: #f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+}
+/*for aside left*/
+.active {
+    background: #26A69A!important;
+    &:hover {
+        background: #26A69A!important;
+    }
+}
+
+@-webkit-keyframes labeln {
+    0% {
+        background: #4CAF50;
+    }
+    50% {
+        background: #3fcd4d;
+    }
+    100% {
+        background: #83ef23;
+    }
+}
+@-moz-keyframes labeln {
+    0% {
+        background: #4CAF50;
+    }
+    50% {
+        background: #3fcd4d;
+    }
+    100% {
+        background: #83ef23;
+    }
+}
+
+.pagination  {
+    li {
+        a {
+            margin-left: 5px;
+            border:1px solid #1A1D1E!important; ;
+            color:#1A1D1E ;
+        }
+    }
+    li.active {
+        &:hover{
+            a{
+                color: #FFFAE3;
+                background: #263238;
+            }
+        }
+        a {
+            color: #FFFAE3;
+            background: #263238;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//web
+@import "web/layouts/header";
+@import "web/layouts/bgSliser";
+@import "web/item/home";
+@import "web/item/contentDetailProduct";
+@import "web/item/CategoryProduct";
+@import "web/bill/shoppingCart";
+@import "web/customer/home";
+@import "web/customer/orderDetail";
+@import "web/layouts/footer";

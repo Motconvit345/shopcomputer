@@ -1,0 +1,29 @@
+#order-detail {
+	h4 {
+		background: #337AB7;
+		color: white;
+	    padding: 8px 20px;
+   		width: 40%;
+   		font-size: 15px;
+   		margin-bottom: 5px;
+	}
+
+	.order-detail {
+		margin-bottom: 15px;
+		margin-top: 15px;
+		.order-detail-colum {
+			width: 32%;
+			display: inline-block;
+		}
+	}	
+
+	.order-detailt-item {
+		.order-detail-row {
+			.order-detail-img {
+				img {
+				    height: 100px;
+				}
+			}
+		}
+	}
+}
